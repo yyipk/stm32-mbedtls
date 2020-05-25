@@ -1,36 +1,4 @@
-/**********************************************
-File Name: ALIENTEK MINISTM32 实验1 跑马灯(库)
-Revision:
-Corporation:
-Microcontroller Corporation:ST
-Microcontroller name:STM32F103RBT6 ARM
-Compiler: Keil MDK_ARM 4.11
-Author: moweidong
-E-mail: moweidongsabbit@21cn.com
-Date : 2010.12.05
-*********************************************/
-//仿真仪器设备:
-//ALIENTEK_MiniSTM32_REVB0开发板
-//JLINK V7
-/*********************************************
-//库
-//CMSIS:V1.20
-//STM32F10x_StdPeriph_Driver:V3.1.1
-*********************************************/
-
-//本程序使用了printf用于在LCD和串口显示数据,因些对Option for Target属性有如下更改
-//Target选项页:勾中Use MicroLIB(使用微库)
-
-//LED0:PA8
-//LED1:PD2
-
-//注意:在禁用JTAG接后后可这样恢复:
-//1.设置KEIL为JTAG或SW下载模式
-//2.给板上电,按下板上的复位按键不放,点击KEIL下的FLASH下载按钮,使JTAG或SW下载工具检测完成接口后立刻放开,
-//此目的在于争取IC在上电的时候有控制权,使在未进入禁用JTAG或SW生效的时候取可控制IC进行烧录
-
 #include "stm32f10x.h"
-#include "LCD.h"
 #include "eval.h"
 #include "SysTickDelay.h"
 #include "UART_INTERFACE.h"
