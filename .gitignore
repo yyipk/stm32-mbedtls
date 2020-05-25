@@ -1,0 +1,15 @@
+.metadata
+RemoteSystemsTempFiles
+.settings
+Debug
+Release
+Packages
+.sconsign.dblite
+*.pyc
+*.uvguix.*
+*.o
+*.crf
+*.d
+JLinkLog.txt
+debug
+_build

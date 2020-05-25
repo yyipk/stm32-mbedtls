@@ -1,0 +1,2373 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\Obj\LED.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\Obj\LED.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Mon May 25 23:33:21 2020
+<BR><P>
+<H3>Maximum Stack Usage =       1520 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; ecdh_test &rArr; mbedtls_ctr_drbg_seed &rArr; mbedtls_ctr_drbg_reseed_internal &rArr; block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1d]">ADC1_2_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1d]">ADC1_2_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1d]">ADC1_2_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[5]">BusFault_Handler</a> from stm32f10x_it.o(i.BusFault_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[1f]">CAN1_RX0_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[20]">CAN1_RX1_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[21]">CAN1_SCE_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[1e]">CAN1_TX_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[44]">CAN2_RX0_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[45]">CAN2_RX1_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[46]">CAN2_SCE_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[43]">CAN2_TX_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[16]">DMA1_Channel1_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[17]">DMA1_Channel2_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[18]">DMA1_Channel3_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[19]">DMA1_Channel4_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[1a]">DMA1_Channel5_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[1b]">DMA1_Channel6_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[1c]">DMA1_Channel7_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[3c]">DMA2_Channel1_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[3d]">DMA2_Channel2_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[3e]">DMA2_Channel3_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[3f]">DMA2_Channel4_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[40]">DMA2_Channel5_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[8]">DebugMon_Handler</a> from stm32f10x_it.o(i.DebugMon_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[41]">ETH_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[42]">ETH_WKUP_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[11]">EXTI0_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[33]">EXTI15_10_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[12]">EXTI1_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[13]">EXTI2_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[14]">EXTI3_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[15]">EXTI4_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[22]">EXTI9_5_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[f]">FLASH_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[3]">HardFault_Handler</a> from stm32f10x_it.o(i.HardFault_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[2b]">I2C1_ER_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[2a]">I2C1_EV_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[2d]">I2C2_ER_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[2c]">I2C2_EV_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[4]">MemManage_Handler</a> from stm32f10x_it.o(i.MemManage_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[2]">NMI_Handler</a> from stm32f10x_it.o(i.NMI_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[47]">OTG_FS_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[35]">OTG_FS_WKUP_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[c]">PVD_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[9]">PendSV_Handler</a> from stm32f10x_it.o(i.PendSV_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[10]">RCC_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[34]">RTCAlarm_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[e]">RTC_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[1]">Reset_Handler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[2e]">SPI1_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[2f]">SPI2_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[37]">SPI3_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[7]">SVC_Handler</a> from stm32f10x_it.o(i.SVC_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[a]">SysTick_Handler</a> from stm32f10x_it.o(i.SysTick_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[d]">TAMPER_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[23]">TIM1_BRK_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[26]">TIM1_CC_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[25]">TIM1_TRG_COM_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[24]">TIM1_UP_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[27]">TIM2_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[28]">TIM3_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[29]">TIM4_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[36]">TIM5_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[3a]">TIM6_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[3b]">TIM7_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[38]">UART4_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[39]">UART5_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[30]">USART1_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[31]">USART2_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[32]">USART3_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[6]">UsageFault_Handler</a> from stm32f10x_it.o(i.UsageFault_Handler) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[b]">WWDG_IRQHandler</a> from startup_stm32f10x_cl.o(.text) referenced from startup_stm32f10x_cl.o(RESET)
+ <LI><a href="#[49]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_stm32f10x_cl.o(.text)
+ <LI><a href="#[4d]">ecp_mod_p192</a> from ecp_curves.o(i.ecp_mod_p192) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[52]">ecp_mod_p192k1</a> from ecp_curves.o(i.ecp_mod_p192k1) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[4e]">ecp_mod_p224</a> from ecp_curves.o(i.ecp_mod_p224) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[53]">ecp_mod_p224k1</a> from ecp_curves.o(i.ecp_mod_p224k1) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[55]">ecp_mod_p255</a> from ecp_curves.o(i.ecp_mod_p255) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[4f]">ecp_mod_p256</a> from ecp_curves.o(i.ecp_mod_p256) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[54]">ecp_mod_p256k1</a> from ecp_curves.o(i.ecp_mod_p256k1) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[50]">ecp_mod_p384</a> from ecp_curves.o(i.ecp_mod_p384) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[56]">ecp_mod_p448</a> from ecp_curves.o(i.ecp_mod_p448) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[51]">ecp_mod_p521</a> from ecp_curves.o(i.ecp_mod_p521) referenced from ecp_curves.o(i.mbedtls_ecp_group_load)
+ <LI><a href="#[4a]">fputc</a> from uart_interface.o(i.fputc) referenced from printf8.o(i.__0printf$8)
+ <LI><a href="#[48]">main</a> from main.o(i.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+ <LI><a href="#[4c]">mbedtls_ctr_drbg_random</a> from ctr_drbg.o(i.mbedtls_ctr_drbg_random) referenced from main.o(i.ecdh_test)
+ <LI><a href="#[4b]">mbedtls_entropy_func</a> from entropy.o(i.mbedtls_entropy_func) referenced from main.o(i.ecdh_test)
+ <LI><a href="#[57]">memset</a> from memseta.o(.text) referenced from platform_util.o(.data)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[49]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(.text)
+</UL>
+<P><STRONG><a name="[104]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[58]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[61]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[105]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[106]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[107]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[108]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[109]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[1]"></a>Reset_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>ADC1_2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>CAN1_RX0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>CAN1_RX1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>CAN1_SCE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>CAN1_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[44]"></a>CAN2_RX0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[45]"></a>CAN2_RX1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[46]"></a>CAN2_SCE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[43]"></a>CAN2_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>DMA1_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>DMA1_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>DMA1_Channel4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>DMA1_Channel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>DMA1_Channel6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>DMA2_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[3d]"></a>DMA2_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[3e]"></a>DMA2_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[3f]"></a>DMA2_Channel4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[40]"></a>DMA2_Channel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[41]"></a>ETH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[42]"></a>ETH_WKUP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[2b]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[2a]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[2c]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[47]"></a>OTG_FS_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[35]"></a>OTG_FS_WKUP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[c]"></a>PVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>RTCAlarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[2e]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[2f]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[37]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>TIM1_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>TIM1_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>TIM1_UP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>TIM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[29]"></a>TIM4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[36]"></a>TIM5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[3a]"></a>TIM6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[3b]"></a>TIM7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[38]"></a>UART4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[39]"></a>UART5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[31]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[32]"></a>USART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[b]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f10x_cl.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[5a]"></a>__aeabi_uldivmod</STRONG> (Thumb, 98 bytes, Stack size 40 bytes, uldiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = __aeabi_uldivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsr
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_llsl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_int_div_int
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[10a]"></a>___aeabi_memcpy8$move</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, memmovea.o(.text), UNUSED)
+
+<P><STRONG><a name="[7e]"></a>__aeabi_memcpy</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, memmovea.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random_with_add
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed_internal
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_update_ret
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+</UL>
+
+<P><STRONG><a name="[b9]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, memmovea.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shrink
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p521
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p448
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p255
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_koblitz
+</UL>
+
+<P><STRONG><a name="[10b]"></a>__aeabi_memmove</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, memmovea.o(.text), UNUSED)
+
+<P><STRONG><a name="[10c]"></a>__aeabi_memmove4</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, memmovea.o(.text), UNUSED)
+
+<P><STRONG><a name="[10d]"></a>__aeabi_memmove8</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, memmovea.o(.text), UNUSED)
+
+<P><STRONG><a name="[5e]"></a>__aeabi_memset</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;memset
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+
+<P><STRONG><a name="[10e]"></a>__aeabi_memset4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[10f]"></a>__aeabi_memset8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[5d]"></a>__aeabi_memclr</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_write_binary_le
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_write_binary
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_finish_ret
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_core
+</UL>
+
+<P><STRONG><a name="[7c]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_init
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_seed
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random_with_add
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_init
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed_internal
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctr_drbg_update_internal
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_init
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_finish_ret
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_init
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p448
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p384
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p256
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p255
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p224
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_koblitz
+</UL>
+
+<P><STRONG><a name="[110]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
+
+<P><STRONG><a name="[57]"></a>memset</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, memseta.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = memset
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> platform_util.o(.data)
+</UL>
+<P><STRONG><a name="[93]"></a>strlen</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, strlen.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[5f]"></a>calloc</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, calloc.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = calloc &rArr; malloc
+</UL>
+<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shrink
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+</UL>
+
+<P><STRONG><a name="[5c]"></a>__aeabi_llsl</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, llshl.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+
+<P><STRONG><a name="[111]"></a>_ll_shift_l</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llshl.o(.text), UNUSED)
+
+<P><STRONG><a name="[5b]"></a>__aeabi_llsr</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, llushr.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+
+<P><STRONG><a name="[112]"></a>_ll_ushift_r</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, llushr.o(.text), UNUSED)
+
+<P><STRONG><a name="[59]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[113]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[5]"></a>BusFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(i.BusFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[8]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.DebugMon_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[62]"></a>GPIO_Configuration</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, main.o(i.GPIO_Configuration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = GPIO_Configuration &rArr; STM_EVAL_LEDInit &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDInit
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_All_Periph
+</UL>
+
+<P><STRONG><a name="[63]"></a>GPIO_Init</STRONG> (Thumb, 278 bytes, Stack size 24 bytes, stm32f10x_gpio.o(i.GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_COMInit
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDInit
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Configuration
+</UL>
+
+<P><STRONG><a name="[3]"></a>HardFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[65]"></a>Init_All_Periph</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, main.o(i.Init_All_Periph))
+<BR><BR>[Stack]<UL><LI>Max Depth = 116<LI>Call Chain = Init_All_Periph &rArr; USART_Configuration &rArr; STM_EVAL_COMInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Configuration
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Configuration
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Configuration
+</UL>
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[4]"></a>MemManage_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(i.MemManage_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.NMI_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[67]"></a>NVIC_Configuration</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, main.o(i.NVIC_Configuration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = NVIC_Configuration
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetVectorTable
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_PriorityGroupConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_All_Periph
+</UL>
+
+<P><STRONG><a name="[69]"></a>NVIC_PriorityGroupConfig</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, misc.o(i.NVIC_PriorityGroupConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Configuration
+</UL>
+
+<P><STRONG><a name="[6a]"></a>NVIC_SetVectorTable</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, misc.o(i.NVIC_SetVectorTable))
+<BR><BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Configuration
+</UL>
+
+<P><STRONG><a name="[9]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.PendSV_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[6e]"></a>RCC_APB1PeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(i.RCC_APB1PeriphClockCmd))
+<BR><BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_COMInit
+</UL>
+
+<P><STRONG><a name="[6d]"></a>RCC_APB2PeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(i.RCC_APB2PeriphClockCmd))
+<BR><BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_COMInit
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDInit
+</UL>
+
+<P><STRONG><a name="[66]"></a>RCC_Configuration</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, main.o(i.RCC_Configuration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = RCC_Configuration &rArr; SystemInit &rArr; SetSysClock &rArr; SetSysClockTo72
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_All_Periph
+</UL>
+
+<P><STRONG><a name="[76]"></a>RCC_GetClocksFreq</STRONG> (Thumb, 192 bytes, Stack size 12 bytes, stm32f10x_rcc.o(i.RCC_GetClocksFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = RCC_GetClocksFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Init
+</UL>
+
+<P><STRONG><a name="[6c]"></a>STM_EVAL_COMInit</STRONG> (Thumb, 138 bytes, Stack size 16 bytes, eval.o(i.STM_EVAL_COMInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = STM_EVAL_COMInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Init
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Cmd
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClockCmd
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Configuration
+</UL>
+
+<P><STRONG><a name="[64]"></a>STM_EVAL_LEDInit</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, eval.o(i.STM_EVAL_LEDInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = STM_EVAL_LEDInit &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Configuration
+</UL>
+
+<P><STRONG><a name="[e5]"></a>STM_EVAL_LEDOff</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, eval.o(i.STM_EVAL_LEDOff))
+<BR><BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[e4]"></a>STM_EVAL_LEDOn</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, eval.o(i.STM_EVAL_LEDOn))
+<BR><BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[71]"></a>STM_EVAL_SendChar</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, eval.o(i.STM_EVAL_SendChar))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = STM_EVAL_SendChar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_SendData
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_GetFlagStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fputc
+</UL>
+
+<P><STRONG><a name="[7]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.SVC_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f10x_it.o(i.SysTick_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[e2]"></a>SysTick_Initaize</STRONG> (Thumb, 60 bytes, Stack size 0 bytes, systickdelay.o(i.SysTick_Initaize))
+<BR><BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[6b]"></a>SystemInit</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SystemInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SystemInit &rArr; SetSysClock &rArr; SetSysClockTo72
+</UL>
+<BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+</UL>
+<BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_Configuration
+</UL>
+
+<P><STRONG><a name="[70]"></a>USART_Cmd</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_usart.o(i.USART_Cmd))
+<BR><BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_COMInit
+</UL>
+
+<P><STRONG><a name="[68]"></a>USART_Configuration</STRONG> (Thumb, 40 bytes, Stack size 24 bytes, uart_interface.o(i.USART_Configuration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = USART_Configuration &rArr; STM_EVAL_COMInit &rArr; USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_COMInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_All_Periph
+</UL>
+
+<P><STRONG><a name="[73]"></a>USART_GetFlagStatus</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_usart.o(i.USART_GetFlagStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_SendChar
+</UL>
+
+<P><STRONG><a name="[6f]"></a>USART_Init</STRONG> (Thumb, 156 bytes, Stack size 56 bytes, stm32f10x_usart.o(i.USART_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = USART_Init &rArr; RCC_GetClocksFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_GetClocksFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_COMInit
+</UL>
+
+<P><STRONG><a name="[72]"></a>USART_SendData</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_usart.o(i.USART_SendData))
+<BR><BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_SendChar
+</UL>
+
+<P><STRONG><a name="[6]"></a>UsageFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_it.o(i.UsageFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_cl.o(RESET)
+</UL>
+<P><STRONG><a name="[77]"></a>__0printf$8</STRONG> (Thumb, 22 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[114]"></a>__1printf$8</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8), UNUSED)
+
+<P><STRONG><a name="[85]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dump_buf
+</UL>
+
+<P><STRONG><a name="[115]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[116]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[117]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[e3]"></a>delay_ms</STRONG> (Thumb, 66 bytes, Stack size 0 bytes, systickdelay.o(i.delay_ms))
+<BR><BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[8e]"></a>ecdh_test</STRONG> (Thumb, 484 bytes, Stack size 96 bytes, main.o(i.ecdh_test))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1520<LI>Call Chain = ecdh_test &rArr; mbedtls_ctr_drbg_seed &rArr; mbedtls_ctr_drbg_reseed_internal &rArr; block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_write_binary
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_size
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_init
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_free
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_load
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_init
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_free
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecdh_gen_public
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecdh_compute_shared
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_seed
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_init
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_free
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_init
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_free
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_write_binary
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dump_buf
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+</UL>
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[4a]"></a>fputc</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, uart_interface.o(i.fputc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = fputc &rArr; STM_EVAL_SendChar
+</UL>
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_SendChar
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printf8.o(i.__0printf$8)
+</UL>
+<P><STRONG><a name="[cb]"></a>free</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, malloc.o(i.free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shrink
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_free
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+</UL>
+
+<P><STRONG><a name="[48]"></a>main</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1520<LI>Call Chain = main &rArr; ecdh_test &rArr; mbedtls_ctr_drbg_seed &rArr; mbedtls_ctr_drbg_reseed_internal &rArr; block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Initaize
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDOn
+<LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;STM_EVAL_LEDOff
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_All_Periph
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[60]"></a>malloc</STRONG> (Thumb, 92 bytes, Stack size 20 bytes, malloc.o(i.malloc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = malloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calloc
+</UL>
+
+<P><STRONG><a name="[80]"></a>mbedtls_aes_crypt_ecb</STRONG> (Thumb, 58 bytes, Stack size 24 bytes, aes.o(i.mbedtls_aes_crypt_ecb))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_internal_aes_encrypt
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_internal_aes_decrypt
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random_with_add
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctr_drbg_update_internal
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+</UL>
+
+<P><STRONG><a name="[81]"></a>mbedtls_aes_free</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, aes.o(i.mbedtls_aes_free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = mbedtls_aes_free &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_free
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+</UL>
+
+<P><STRONG><a name="[7d]"></a>mbedtls_aes_init</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, aes.o(i.mbedtls_aes_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = mbedtls_aes_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_seed
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+</UL>
+
+<P><STRONG><a name="[7f]"></a>mbedtls_aes_setkey_enc</STRONG> (Thumb, 504 bytes, Stack size 20 bytes, aes.o(i.mbedtls_aes_setkey_enc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = mbedtls_aes_setkey_enc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_seed
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctr_drbg_update_internal
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+</UL>
+
+<P><STRONG><a name="[9f]"></a>mbedtls_ctr_drbg_free</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, ctr_drbg.o(i.mbedtls_ctr_drbg_free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = mbedtls_ctr_drbg_free &rArr; mbedtls_aes_free &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[92]"></a>mbedtls_ctr_drbg_init</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, ctr_drbg.o(i.mbedtls_ctr_drbg_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = mbedtls_ctr_drbg_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[4c]"></a>mbedtls_ctr_drbg_random</STRONG> (Thumb, 40 bytes, Stack size 32 bytes, ctr_drbg.o(i.mbedtls_ctr_drbg_random))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1520<LI>Call Chain = mbedtls_ctr_drbg_random &rArr; mbedtls_ctr_drbg_random_with_add &rArr; mbedtls_ctr_drbg_reseed &rArr; mbedtls_ctr_drbg_reseed_internal &rArr; block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random_with_add
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(i.ecdh_test)
+</UL>
+<P><STRONG><a name="[e8]"></a>mbedtls_ctr_drbg_random_with_add</STRONG> (Thumb, 254 bytes, Stack size 112 bytes, ctr_drbg.o(i.mbedtls_ctr_drbg_random_with_add))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1488<LI>Call Chain = mbedtls_ctr_drbg_random_with_add &rArr; mbedtls_ctr_drbg_reseed &rArr; mbedtls_ctr_drbg_reseed_internal &rArr; block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_crypt_ecb
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctr_drbg_update_internal
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random
+</UL>
+
+<P><STRONG><a name="[e9]"></a>mbedtls_ctr_drbg_reseed</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, ctr_drbg.o(i.mbedtls_ctr_drbg_reseed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1376<LI>Call Chain = mbedtls_ctr_drbg_reseed &rArr; mbedtls_ctr_drbg_reseed_internal &rArr; block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed_internal
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random_with_add
+</UL>
+
+<P><STRONG><a name="[94]"></a>mbedtls_ctr_drbg_seed</STRONG> (Thumb, 132 bytes, Stack size 64 bytes, ctr_drbg.o(i.mbedtls_ctr_drbg_seed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1424<LI>Call Chain = mbedtls_ctr_drbg_seed &rArr; mbedtls_ctr_drbg_reseed_internal &rArr; block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_setkey_enc
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_init
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed_internal
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;good_nonce_len
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[98]"></a>mbedtls_ecdh_compute_shared</STRONG> (Thumb, 56 bytes, Stack size 40 bytes, ecdh.o(i.mbedtls_ecdh_compute_shared))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1200<LI>Call Chain = mbedtls_ecdh_compute_shared &rArr; ecdh_compute_shared_restartable &rArr; mbedtls_ecp_mul_restartable &rArr; ecp_mul_comb &rArr; ecp_mul_comb_after_precomp &rArr; ecp_mul_comb_core &rArr; ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_compute_shared_restartable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[96]"></a>mbedtls_ecdh_gen_public</STRONG> (Thumb, 54 bytes, Stack size 32 bytes, ecdh.o(i.mbedtls_ecdh_gen_public))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1152<LI>Call Chain = mbedtls_ecdh_gen_public &rArr; ecdh_gen_public_restartable &rArr; mbedtls_ecp_mul_restartable &rArr; ecp_mul_comb &rArr; ecp_mul_comb_after_precomp &rArr; ecp_mul_comb_core &rArr; ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_gen_public_restartable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[ec]"></a>mbedtls_ecp_check_privkey</STRONG> (Thumb, 134 bytes, Stack size 16 bytes, ecp.o(i.mbedtls_ecp_check_privkey))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = mbedtls_ecp_check_privkey &rArr; mbedtls_mpi_cmp_int &rArr; mbedtls_mpi_cmp_mpi
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_get_bit
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_get_type
+</UL>
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_mul_restartable
+</UL>
+
+<P><STRONG><a name="[ee]"></a>mbedtls_ecp_check_pubkey</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, ecp.o(i.mbedtls_ecp_check_pubkey))
+<BR><BR>[Stack]<UL><LI>Max Depth = 392<LI>Call Chain = mbedtls_ecp_check_pubkey &rArr; ecp_check_pubkey_sw &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_get_type
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_mx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_mul_restartable
+</UL>
+
+<P><STRONG><a name="[a2]"></a>mbedtls_ecp_copy</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, ecp.o(i.mbedtls_ecp_copy))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = mbedtls_ecp_copy &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_precompute_comb
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+
+<P><STRONG><a name="[8d]"></a>mbedtls_ecp_gen_privkey</STRONG> (Thumb, 340 bytes, Stack size 40 bytes, ecp.o(i.mbedtls_ecp_gen_privkey))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = mbedtls_ecp_gen_privkey &rArr; mbedtls_mpi_fill_random &rArr; mbedtls_mpi_lset &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_set_bit
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lt_mpi_ct
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_fill_random
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_get_type
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_gen_public_restartable
+</UL>
+
+<P><STRONG><a name="[ed]"></a>mbedtls_ecp_get_type</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, ecp.o(i.mbedtls_ecp_get_type))
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_mul_restartable
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_gen_privkey
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_write_binary
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_pubkey
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_privkey
+</UL>
+
+<P><STRONG><a name="[9d]"></a>mbedtls_ecp_group_free</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, ecp.o(i.mbedtls_ecp_group_free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = mbedtls_ecp_group_free &rArr; mbedtls_ecp_point_free &rArr; mbedtls_mpi_free &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_free
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_load
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[90]"></a>mbedtls_ecp_group_init</STRONG> (Thumb, 72 bytes, Stack size 8 bytes, ecp.o(i.mbedtls_ecp_group_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = mbedtls_ecp_group_init &rArr; mbedtls_ecp_point_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[95]"></a>mbedtls_ecp_group_load</STRONG> (Thumb, 626 bytes, Stack size 48 bytes, ecp_curves.o(i.mbedtls_ecp_group_load))
+<BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = mbedtls_ecp_group_load &rArr; ecp_use_curve448 &rArr; mbedtls_mpi_read_string &rArr; mbedtls_mpi_sub_int &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_free
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_group_load
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[89]"></a>mbedtls_ecp_is_zero</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, ecp.o(i.mbedtls_ecp_is_zero))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = mbedtls_ecp_is_zero &rArr; mbedtls_mpi_cmp_int &rArr; mbedtls_mpi_cmp_mpi
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+</UL>
+<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_compute_shared_restartable
+</UL>
+
+<P><STRONG><a name="[88]"></a>mbedtls_ecp_mul_restartable</STRONG> (Thumb, 166 bytes, Stack size 48 bytes, ecp.o(i.mbedtls_ecp_mul_restartable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1072<LI>Call Chain = mbedtls_ecp_mul_restartable &rArr; ecp_mul_comb &rArr; ecp_mul_comb_after_precomp &rArr; ecp_mul_comb_core &rArr; ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_get_type
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_pubkey
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_privkey
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_gen_public_restartable
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_compute_shared_restartable
+</UL>
+
+<P><STRONG><a name="[8b]"></a>mbedtls_ecp_point_free</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, ecp.o(i.mbedtls_ecp_point_free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = mbedtls_ecp_point_free &rArr; mbedtls_mpi_free &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_free
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_compute_shared_restartable
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_core
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[87]"></a>mbedtls_ecp_point_init</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, ecp.o(i.mbedtls_ecp_point_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = mbedtls_ecp_point_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_init
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_compute_shared_restartable
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_core
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[97]"></a>mbedtls_ecp_point_write_binary</STRONG> (Thumb, 284 bytes, Stack size 40 bytes, ecp.o(i.mbedtls_ecp_point_write_binary))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = mbedtls_ecp_point_write_binary &rArr; mbedtls_mpi_cmp_int &rArr; mbedtls_mpi_cmp_mpi
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_write_binary_le
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_get_bit
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_write_binary
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_size
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_get_type
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[a6]"></a>mbedtls_ecp_set_zero</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, ecp.o(i.mbedtls_ecp_set_zero))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = mbedtls_ecp_set_zero &rArr; mbedtls_mpi_lset &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+
+<P><STRONG><a name="[9e]"></a>mbedtls_entropy_free</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, entropy.o(i.mbedtls_entropy_free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = mbedtls_entropy_free &rArr; mbedtls_sha512_free &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[4b]"></a>mbedtls_entropy_func</STRONG> (Thumb, 330 bytes, Stack size 104 bytes, entropy.o(i.mbedtls_entropy_func))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1392<LI>Call Chain = mbedtls_entropy_func &rArr; entropy_gather_internal &rArr; entropy_update &rArr; mbedtls_sha512_ret &rArr; mbedtls_sha512_finish_ret &rArr; mbedtls_internal_sha512_process
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_update_ret
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_starts_ret
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_ret
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_init
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_free
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_finish_ret
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;entropy_gather_internal
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> main.o(i.ecdh_test)
+</UL>
+<P><STRONG><a name="[91]"></a>mbedtls_entropy_init</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, entropy.o(i.mbedtls_entropy_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = mbedtls_entropy_init &rArr; mbedtls_sha512_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_init
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[e7]"></a>mbedtls_internal_aes_decrypt</STRONG> (Thumb, 1394 bytes, Stack size 56 bytes, aes.o(i.mbedtls_internal_aes_decrypt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = mbedtls_internal_aes_decrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_crypt_ecb
+</UL>
+
+<P><STRONG><a name="[e6]"></a>mbedtls_internal_aes_encrypt</STRONG> (Thumb, 1394 bytes, Stack size 56 bytes, aes.o(i.mbedtls_internal_aes_encrypt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_crypt_ecb
+</UL>
+
+<P><STRONG><a name="[101]"></a>mbedtls_internal_sha512_process</STRONG> (Thumb, 3654 bytes, Stack size 752 bytes, sha512.o(i.mbedtls_internal_sha512_process))
+<BR><BR>[Stack]<UL><LI>Max Depth = 752<LI>Call Chain = mbedtls_internal_sha512_process
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_update_ret
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_finish_ret
+</UL>
+
+<P><STRONG><a name="[bc]"></a>mbedtls_mpi_add_abs</STRONG> (Thumb, 260 bytes, Stack size 48 bytes, bignum.o(i.mbedtls_mpi_add_abs))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p521
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p255
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_koblitz
+</UL>
+
+<P><STRONG><a name="[f5]"></a>mbedtls_mpi_add_int</STRONG> (Thumb, 64 bytes, Stack size 32 bytes, bignum.o(i.mbedtls_mpi_add_int))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = mbedtls_mpi_add_int &rArr; mbedtls_mpi_add_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+</UL>
+
+<P><STRONG><a name="[ab]"></a>mbedtls_mpi_add_mpi</STRONG> (Thumb, 132 bytes, Stack size 24 bytes, bignum.o(i.mbedtls_mpi_add_mpi))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = mbedtls_mpi_add_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_abs
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_abs
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mod_mpi
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_int
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p448
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mod
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mod
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_modp
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+</UL>
+
+<P><STRONG><a name="[b7]"></a>mbedtls_mpi_bitlen</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, bignum.o(i.mbedtls_mpi_bitlen))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = mbedtls_mpi_bitlen
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_clz
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_size
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_gen_privkey
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_group_load
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_privkey
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_modp
+</UL>
+
+<P><STRONG><a name="[f6]"></a>mbedtls_mpi_cmp_abs</STRONG> (Thumb, 146 bytes, Stack size 16 bytes, bignum.o(i.mbedtls_mpi_cmp_abs))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = mbedtls_mpi_cmp_abs
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+</UL>
+
+<P><STRONG><a name="[a1]"></a>mbedtls_mpi_cmp_int</STRONG> (Thumb, 56 bytes, Stack size 28 bytes, bignum.o(i.mbedtls_mpi_cmp_int))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = mbedtls_mpi_cmp_int &rArr; mbedtls_mpi_cmp_mpi
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mod_mpi
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_is_zero
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_gen_privkey
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_write_binary
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_pubkey
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_privkey
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mod
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_safe_invert_jac
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_mxz
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_modp
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+
+<P><STRONG><a name="[9b]"></a>mbedtls_mpi_cmp_mpi</STRONG> (Thumb, 180 bytes, Stack size 16 bytes, bignum.o(i.mbedtls_mpi_cmp_mpi))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = mbedtls_mpi_cmp_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mod_mpi
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_privkey
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l_mod
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mod
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_mxz
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_modp
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[8a]"></a>mbedtls_mpi_copy</STRONG> (Thumb, 128 bytes, Stack size 24 bytes, bignum.o(i.mbedtls_mpi_copy))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_abs
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_copy
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_compute_shared_restartable
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_scalar
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+
+<P><STRONG><a name="[f8]"></a>mbedtls_mpi_div_mpi</STRONG> (Thumb, 966 bytes, Stack size 112 bytes, bignum.o(i.mbedtls_mpi_div_mpi))
+<BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_int
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_abs
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_int_div_int
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mod_mpi
+</UL>
+
+<P><STRONG><a name="[d9]"></a>mbedtls_mpi_fill_random</STRONG> (Thumb, 132 bytes, Stack size 40 bytes, bignum.o(i.mbedtls_mpi_fill_random))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = mbedtls_mpi_fill_random &rArr; mbedtls_mpi_lset &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpi_bigendian_to_host
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_gen_privkey
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_mxz
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+</UL>
+
+<P><STRONG><a name="[9c]"></a>mbedtls_mpi_free</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, bignum.o(i.mbedtls_mpi_free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = mbedtls_mpi_free &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_zeroize
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_fill_random
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_free
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_free
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_safe_invert_jac
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_mxz
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_add_mxz
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_scalar
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[fb]"></a>mbedtls_mpi_gcd</STRONG> (Thumb, 376 bytes, Stack size 56 bytes, bignum.o(i.mbedtls_mpi_gcd))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = mbedtls_mpi_gcd &rArr; mbedtls_mpi_sub_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lsb
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+</UL>
+
+<P><STRONG><a name="[ae]"></a>mbedtls_mpi_get_bit</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, bignum.o(i.mbedtls_mpi_get_bit))
+<BR><BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_write_binary
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_privkey
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_scalar
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_core
+</UL>
+
+<P><STRONG><a name="[bd]"></a>mbedtls_mpi_grow</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, bignum.o(i.mbedtls_mpi_grow))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_zeroize
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calloc
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shrink
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_set_bit
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_safe_cond_swap
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_safe_cond_assign
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_fill_random
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_abs
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p384
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p256
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p224
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p192
+</UL>
+
+<P><STRONG><a name="[8f]"></a>mbedtls_mpi_init</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, bignum.o(i.mbedtls_mpi_init))
+<BR><BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_fill_random
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_init
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_init
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_safe_invert_jac
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_mxz
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_add_mxz
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_scalar
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[d6]"></a>mbedtls_mpi_inv_mod</STRONG> (Thumb, 830 bytes, Stack size 128 bytes, bignum.o(i.mbedtls_mpi_inv_mod))
+<BR><BR>[Stack]<UL><LI>Max Depth = 424<LI>Call Chain = mbedtls_mpi_inv_mod &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mod_mpi
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_mxz
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac
+</UL>
+
+<P><STRONG><a name="[fc]"></a>mbedtls_mpi_lsb</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, bignum.o(i.mbedtls_mpi_lsb))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = mbedtls_mpi_lsb
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+</UL>
+
+<P><STRONG><a name="[d1]"></a>mbedtls_mpi_lset</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, bignum.o(i.mbedtls_mpi_lset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = mbedtls_mpi_lset &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_fill_random
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_set_zero
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_mxz
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_core
+</UL>
+
+<P><STRONG><a name="[ef]"></a>mbedtls_mpi_lt_mpi_ct</STRONG> (Thumb, 172 bytes, Stack size 40 bytes, bignum.o(i.mbedtls_mpi_lt_mpi_ct))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = mbedtls_mpi_lt_mpi_ct &rArr; ct_lt_mpi_uint
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ct_lt_mpi_uint
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_gen_privkey
+</UL>
+
+<P><STRONG><a name="[c6]"></a>mbedtls_mpi_mod_mpi</STRONG> (Thumb, 142 bytes, Stack size 24 bytes, bignum.o(i.mbedtls_mpi_mod_mpi))
+<BR><BR>[Stack]<UL><LI>Max Depth = 296<LI>Call Chain = mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_modp
+</UL>
+
+<P><STRONG><a name="[b3]"></a>mbedtls_mpi_mul_int</STRONG> (Thumb, 42 bytes, Stack size 32 bytes, bignum.o(i.mbedtls_mpi_mul_int))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p255
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+</UL>
+
+<P><STRONG><a name="[bb]"></a>mbedtls_mpi_mul_mpi</STRONG> (Thumb, 248 bytes, Stack size 56 bytes, bignum.o(i.mbedtls_mpi_mul_mpi))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpi_mul_hlp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_int
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_koblitz
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+</UL>
+
+<P><STRONG><a name="[db]"></a>mbedtls_mpi_read_string</STRONG> (Thumb, 386 bytes, Stack size 56 bytes, bignum.o(i.mbedtls_mpi_read_string))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = mbedtls_mpi_read_string &rArr; mbedtls_mpi_sub_int &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_int
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_int
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_int
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpi_get_digit
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+</UL>
+
+<P><STRONG><a name="[b1]"></a>mbedtls_mpi_safe_cond_assign</STRONG> (Thumb, 142 bytes, Stack size 24 bytes, bignum.o(i.mbedtls_mpi_safe_cond_assign))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = mbedtls_mpi_safe_cond_assign &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_select_comb
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_safe_invert_jac
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_scalar
+</UL>
+
+<P><STRONG><a name="[d4]"></a>mbedtls_mpi_safe_cond_swap</STRONG> (Thumb, 184 bytes, Stack size 32 bytes, bignum.o(i.mbedtls_mpi_safe_cond_swap))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = mbedtls_mpi_safe_cond_swap &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+</UL>
+
+<P><STRONG><a name="[c3]"></a>mbedtls_mpi_set_bit</STRONG> (Thumb, 116 bytes, Stack size 32 bytes, bignum.o(i.mbedtls_mpi_set_bit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = mbedtls_mpi_set_bit &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_gen_privkey
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p255
+</UL>
+
+<P><STRONG><a name="[c4]"></a>mbedtls_mpi_shift_l</STRONG> (Thumb, 202 bytes, Stack size 40 bytes, bignum.o(i.mbedtls_mpi_shift_l))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = mbedtls_mpi_shift_l &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+</UL>
+<BR>[Called By]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p448
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l_mod
+</UL>
+
+<P><STRONG><a name="[ba]"></a>mbedtls_mpi_shift_r</STRONG> (Thumb, 170 bytes, Stack size 32 bytes, bignum.o(i.mbedtls_mpi_shift_r))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = mbedtls_mpi_shift_r &rArr; mbedtls_mpi_lset &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_gen_privkey
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p521
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p448
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p255
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_koblitz
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_mxz
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+</UL>
+
+<P><STRONG><a name="[d8]"></a>mbedtls_mpi_shrink</STRONG> (Thumb, 130 bytes, Stack size 24 bytes, bignum.o(i.mbedtls_mpi_shrink))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = mbedtls_mpi_shrink &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_zeroize
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calloc
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+</UL>
+
+<P><STRONG><a name="[99]"></a>mbedtls_mpi_size</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, bignum.o(i.mbedtls_mpi_size))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = mbedtls_mpi_size &rArr; mbedtls_mpi_bitlen
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_write_binary
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_mx
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[b4]"></a>mbedtls_mpi_sub_abs</STRONG> (Thumb, 156 bytes, Stack size 40 bytes, bignum.o(i.mbedtls_mpi_sub_abs))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = mbedtls_mpi_sub_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_abs
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpi_sub_hlp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_gcd
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fix_negative
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l_mod
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mod
+<LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_modp
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+</UL>
+
+<P><STRONG><a name="[aa]"></a>mbedtls_mpi_sub_int</STRONG> (Thumb, 64 bytes, Stack size 32 bytes, bignum.o(i.mbedtls_mpi_sub_int))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = mbedtls_mpi_sub_int &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve25519
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+</UL>
+
+<P><STRONG><a name="[b0]"></a>mbedtls_mpi_sub_mpi</STRONG> (Thumb, 132 bytes, Stack size 24 bytes, bignum.o(i.mbedtls_mpi_sub_mpi))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_abs
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_abs
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_int
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mod_mpi
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_use_curve448
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mod
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_safe_invert_jac
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_scalar
+</UL>
+
+<P><STRONG><a name="[9a]"></a>mbedtls_mpi_write_binary</STRONG> (Thumb, 130 bytes, Stack size 32 bytes, bignum.o(i.mbedtls_mpi_write_binary))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = mbedtls_mpi_write_binary
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_write_binary
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[f0]"></a>mbedtls_mpi_write_binary_le</STRONG> (Thumb, 106 bytes, Stack size 32 bytes, bignum.o(i.mbedtls_mpi_write_binary_le))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = mbedtls_mpi_write_binary_le
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_write_binary
+</UL>
+
+<P><STRONG><a name="[82]"></a>mbedtls_platform_zeroize</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, platform_util.o(i.mbedtls_platform_zeroize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = mbedtls_platform_zeroize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_internal_aes_encrypt
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_internal_aes_decrypt
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_free
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_zeroize
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_free
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random_with_add
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_free
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed_internal
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctr_drbg_update_internal
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_free
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_free
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;entropy_update
+<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;entropy_gather_internal
+</UL>
+
+<P><STRONG><a name="[f2]"></a>mbedtls_sha512_finish_ret</STRONG> (Thumb, 992 bytes, Stack size 40 bytes, sha512.o(i.mbedtls_sha512_finish_ret))
+<BR><BR>[Stack]<UL><LI>Max Depth = 792<LI>Call Chain = mbedtls_sha512_finish_ret &rArr; mbedtls_internal_sha512_process
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_internal_sha512_process
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_ret
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+</UL>
+
+<P><STRONG><a name="[f1]"></a>mbedtls_sha512_free</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sha512.o(i.mbedtls_sha512_free))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = mbedtls_sha512_free &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_ret
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_free
+</UL>
+
+<P><STRONG><a name="[f3]"></a>mbedtls_sha512_init</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, sha512.o(i.mbedtls_sha512_init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = mbedtls_sha512_init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_ret
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_init
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+</UL>
+
+<P><STRONG><a name="[df]"></a>mbedtls_sha512_ret</STRONG> (Thumb, 102 bytes, Stack size 240 bytes, sha512.o(i.mbedtls_sha512_ret))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1032<LI>Call Chain = mbedtls_sha512_ret &rArr; mbedtls_sha512_finish_ret &rArr; mbedtls_internal_sha512_process
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_update_ret
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_starts_ret
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_init
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_free
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_finish_ret
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;entropy_update
+</UL>
+
+<P><STRONG><a name="[e0]"></a>mbedtls_sha512_starts_ret</STRONG> (Thumb, 162 bytes, Stack size 8 bytes, sha512.o(i.mbedtls_sha512_starts_ret))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = mbedtls_sha512_starts_ret
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_ret
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;entropy_update
+</UL>
+
+<P><STRONG><a name="[e1]"></a>mbedtls_sha512_update_ret</STRONG> (Thumb, 178 bytes, Stack size 32 bytes, sha512.o(i.mbedtls_sha512_update_ret))
+<BR><BR>[Stack]<UL><LI>Max Depth = 784<LI>Call Chain = mbedtls_sha512_update_ret &rArr; mbedtls_internal_sha512_process
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_internal_sha512_process
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_ret
+<LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;entropy_update
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[74]"></a>SetSysClock</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SetSysClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SetSysClock &rArr; SetSysClockTo72
+</UL>
+<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClockTo72
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[75]"></a>SetSysClockTo72</STRONG> (Thumb, 220 bytes, Stack size 12 bytes, system_stm32f10x.o(i.SetSysClockTo72))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SetSysClockTo72
+</UL>
+<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+</UL>
+
+<P><STRONG><a name="[fd]"></a>ct_lt_mpi_uint</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, bignum.o(i.ct_lt_mpi_uint))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ct_lt_mpi_uint
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lt_mpi_ct
+</UL>
+
+<P><STRONG><a name="[f7]"></a>mbedtls_clz</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, bignum.o(i.mbedtls_clz))
+<BR><BR>[Called By]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+</UL>
+
+<P><STRONG><a name="[f4]"></a>mbedtls_int_div_int</STRONG> (Thumb, 104 bytes, Stack size 40 bytes, bignum.o(i.mbedtls_int_div_int))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = mbedtls_int_div_int &rArr; __aeabi_uldivmod
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_div_mpi
+</UL>
+
+<P><STRONG><a name="[fa]"></a>mbedtls_mpi_zeroize</STRONG> (Thumb, 16 bytes, Stack size 16 bytes, bignum.o(i.mbedtls_mpi_zeroize))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shrink
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+</UL>
+
+<P><STRONG><a name="[f9]"></a>mpi_bigendian_to_host</STRONG> (Thumb, 56 bytes, Stack size 24 bytes, bignum.o(i.mpi_bigendian_to_host))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = mpi_bigendian_to_host &rArr; mpi_uint_bigendian_to_host &rArr; mpi_uint_bigendian_to_host_c
+</UL>
+<BR>[Calls]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpi_uint_bigendian_to_host
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_fill_random
+</UL>
+
+<P><STRONG><a name="[ff]"></a>mpi_get_digit</STRONG> (Thumb, 64 bytes, Stack size 0 bytes, bignum.o(i.mpi_get_digit))
+<BR><BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+</UL>
+
+<P><STRONG><a name="[fe]"></a>mpi_mul_hlp</STRONG> (Thumb, 1596 bytes, Stack size 32 bytes, bignum.o(i.mpi_mul_hlp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = mpi_mul_hlp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+</UL>
+
+<P><STRONG><a name="[100]"></a>mpi_sub_hlp</STRONG> (Thumb, 98 bytes, Stack size 20 bytes, bignum.o(i.mpi_sub_hlp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = mpi_sub_hlp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+</UL>
+
+<P><STRONG><a name="[102]"></a>mpi_uint_bigendian_to_host</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bignum.o(i.mpi_uint_bigendian_to_host))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = mpi_uint_bigendian_to_host &rArr; mpi_uint_bigendian_to_host_c
+</UL>
+<BR>[Calls]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpi_uint_bigendian_to_host_c
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpi_bigendian_to_host
+</UL>
+
+<P><STRONG><a name="[103]"></a>mpi_uint_bigendian_to_host_c</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, bignum.o(i.mpi_uint_bigendian_to_host_c))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = mpi_uint_bigendian_to_host_c
+</UL>
+<BR>[Called By]<UL><LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mpi_uint_bigendian_to_host
+</UL>
+
+<P><STRONG><a name="[7b]"></a>block_cipher_df</STRONG> (Thumb, 368 bytes, Stack size 848 bytes, ctr_drbg.o(i.block_cipher_df))
+<BR><BR>[Stack]<UL><LI>Max Depth = 944<LI>Call Chain = block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_setkey_enc
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_init
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_free
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_crypt_ecb
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random_with_add
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed_internal
+</UL>
+
+<P><STRONG><a name="[83]"></a>ctr_drbg_update_internal</STRONG> (Thumb, 160 bytes, Stack size 80 bytes, ctr_drbg.o(i.ctr_drbg_update_internal))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = ctr_drbg_update_internal &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_setkey_enc
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_aes_crypt_ecb
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_random_with_add
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed_internal
+</UL>
+
+<P><STRONG><a name="[eb]"></a>good_nonce_len</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, ctr_drbg.o(i.good_nonce_len))
+<BR><BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_seed
+</UL>
+
+<P><STRONG><a name="[ea]"></a>mbedtls_ctr_drbg_reseed_internal</STRONG> (Thumb, 210 bytes, Stack size 416 bytes, ctr_drbg.o(i.mbedtls_ctr_drbg_reseed_internal))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1360<LI>Call Chain = mbedtls_ctr_drbg_reseed_internal &rArr; block_cipher_df &rArr; mbedtls_aes_crypt_ecb &rArr; mbedtls_internal_aes_encrypt &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctr_drbg_update_internal
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;block_cipher_df
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_seed
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ctr_drbg_reseed
+</UL>
+
+<P><STRONG><a name="[86]"></a>ecdh_compute_shared_restartable</STRONG> (Thumb, 110 bytes, Stack size 88 bytes, ecdh.o(i.ecdh_compute_shared_restartable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1160<LI>Call Chain = ecdh_compute_shared_restartable &rArr; mbedtls_ecp_mul_restartable &rArr; ecp_mul_comb &rArr; ecp_mul_comb_after_precomp &rArr; ecp_mul_comb_core &rArr; ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_init
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_free
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_mul_restartable
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_is_zero
+</UL>
+<BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecdh_compute_shared
+</UL>
+
+<P><STRONG><a name="[8c]"></a>ecdh_gen_public_restartable</STRONG> (Thumb, 82 bytes, Stack size 48 bytes, ecdh.o(i.ecdh_gen_public_restartable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1120<LI>Call Chain = ecdh_gen_public_restartable &rArr; mbedtls_ecp_mul_restartable &rArr; ecp_mul_comb &rArr; ecp_mul_comb_after_precomp &rArr; ecp_mul_comb_core &rArr; ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_mul_restartable
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_gen_privkey
+</UL>
+<BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecdh_gen_public
+</UL>
+
+<P><STRONG><a name="[a0]"></a>ecp_add_mixed</STRONG> (Thumb, 760 bytes, Stack size 112 bytes, ecp.o(i.ecp_add_mixed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 520<LI>Call Chain = ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_copy
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_set_zero
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mod
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l_mod
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_precompute_comb
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_core
+</UL>
+
+<P><STRONG><a name="[a8]"></a>ecp_check_pubkey_mx</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, ecp.o(i.ecp_check_pubkey_mx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ecp_check_pubkey_mx &rArr; mbedtls_mpi_size &rArr; mbedtls_mpi_bitlen
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_size
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_pubkey
+</UL>
+
+<P><STRONG><a name="[a9]"></a>ecp_check_pubkey_sw</STRONG> (Thumb, 294 bytes, Stack size 40 bytes, ecp.o(i.ecp_check_pubkey_sw))
+<BR><BR>[Stack]<UL><LI>Max Depth = 376<LI>Call Chain = ecp_check_pubkey_sw &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_int
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_check_pubkey
+</UL>
+
+<P><STRONG><a name="[ad]"></a>ecp_comb_recode_core</STRONG> (Thumb, 142 bytes, Stack size 56 bytes, ecp.o(i.ecp_comb_recode_core))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = ecp_comb_recode_core
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_get_bit
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_scalar
+</UL>
+
+<P><STRONG><a name="[af]"></a>ecp_comb_recode_scalar</STRONG> (Thumb, 174 bytes, Stack size 56 bytes, ecp.o(i.ecp_comb_recode_scalar))
+<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = ecp_comb_recode_scalar &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_safe_cond_assign
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_get_bit
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_core
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_after_precomp
+</UL>
+
+<P><STRONG><a name="[b2]"></a>ecp_double_add_mxz</STRONG> (Thumb, 594 bytes, Stack size 144 bytes, ecp.o(i.ecp_double_add_mxz))
+<BR><BR>[Stack]<UL><LI>Max Depth = 480<LI>Call Chain = ecp_double_add_mxz &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mod
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+</UL>
+
+<P><STRONG><a name="[a5]"></a>ecp_double_jac</STRONG> (Thumb, 776 bytes, Stack size 72 bytes, ecp.o(i.ecp_double_jac))
+<BR><BR>[Stack]<UL><LI>Max Depth = 408<LI>Call Chain = ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_int
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mod
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l_mod
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_precompute_comb
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_core
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+
+<P><STRONG><a name="[c5]"></a>ecp_modp</STRONG> (Thumb, 156 bytes, Stack size 16 bytes, ecp.o(i.ecp_modp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 312<LI>Call Chain = ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mod_mpi
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+</UL>
+
+<P><STRONG><a name="[c7]"></a>ecp_mul_comb</STRONG> (Thumb, 290 bytes, Stack size 88 bytes, ecp.o(i.ecp_mul_comb))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1024<LI>Call Chain = ecp_mul_comb &rArr; ecp_mul_comb_after_precomp &rArr; ecp_mul_comb_core &rArr; ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_init
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_free
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_precompute_comb
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_pick_window_size
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_after_precomp
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calloc
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_mul_restartable
+</UL>
+
+<P><STRONG><a name="[ca]"></a>ecp_mul_comb_after_precomp</STRONG> (Thumb, 178 bytes, Stack size 336 bytes, ecp.o(i.ecp_mul_comb_after_precomp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 936<LI>Call Chain = ecp_mul_comb_after_precomp &rArr; ecp_mul_comb_core &rArr; ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_safe_invert_jac
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_core
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_comb_recode_scalar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+</UL>
+
+<P><STRONG><a name="[cc]"></a>ecp_mul_comb_core</STRONG> (Thumb, 196 bytes, Stack size 80 bytes, ecp.o(i.ecp_mul_comb_core))
+<BR><BR>[Stack]<UL><LI>Max Depth = 600<LI>Call Chain = ecp_mul_comb_core &rArr; ecp_add_mixed &rArr; ecp_double_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_init
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_free
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_select_comb
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_after_precomp
+</UL>
+
+<P><STRONG><a name="[d2]"></a>ecp_mul_mxz</STRONG> (Thumb, 384 bytes, Stack size 96 bytes, ecp.o(i.ecp_mul_mxz))
+<BR><BR>[Stack]<UL><LI>Max Depth = 576<LI>Call Chain = ecp_mul_mxz &rArr; ecp_double_add_mxz &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_safe_cond_swap
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_get_bit
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_init
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_point_free
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_copy
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_mxz
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_mxz
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_add_mxz
+</UL>
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_mul_restartable
+</UL>
+
+<P><STRONG><a name="[cf]"></a>ecp_normalize_jac</STRONG> (Thumb, 194 bytes, Stack size 40 bytes, ecp.o(i.ecp_normalize_jac))
+<BR><BR>[Stack]<UL><LI>Max Depth = 464<LI>Call Chain = ecp_normalize_jac &rArr; mbedtls_mpi_inv_mod &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_after_precomp
+</UL>
+
+<P><STRONG><a name="[d7]"></a>ecp_normalize_jac_many</STRONG> (Thumb, 538 bytes, Stack size 64 bytes, ecp.o(i.ecp_normalize_jac_many))
+<BR><BR>[Stack]<UL><LI>Max Depth = 528<LI>Call Chain = ecp_normalize_jac_many &rArr; ecp_normalize_jac &rArr; mbedtls_mpi_inv_mod &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shrink
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_copy
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;calloc
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_precompute_comb
+</UL>
+
+<P><STRONG><a name="[d5]"></a>ecp_normalize_mxz</STRONG> (Thumb, 82 bytes, Stack size 16 bytes, ecp.o(i.ecp_normalize_mxz))
+<BR><BR>[Stack]<UL><LI>Max Depth = 440<LI>Call Chain = ecp_normalize_mxz &rArr; mbedtls_mpi_inv_mod &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_inv_mod
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+</UL>
+
+<P><STRONG><a name="[c8]"></a>ecp_pick_window_size</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, ecp.o(i.ecp_pick_window_size))
+<BR><BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+</UL>
+
+<P><STRONG><a name="[c9]"></a>ecp_precompute_comb</STRONG> (Thumb, 322 bytes, Stack size 184 bytes, ecp.o(i.ecp_precompute_comb))
+<BR><BR>[Stack]<UL><LI>Max Depth = 712<LI>Call Chain = ecp_precompute_comb &rArr; ecp_normalize_jac_many &rArr; ecp_normalize_jac &rArr; mbedtls_mpi_inv_mod &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_copy
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb
+</UL>
+
+<P><STRONG><a name="[ce]"></a>ecp_randomize_jac</STRONG> (Thumb, 274 bytes, Stack size 56 bytes, ecp.o(i.ecp_randomize_jac))
+<BR><BR>[Stack]<UL><LI>Max Depth = 392<LI>Call Chain = ecp_randomize_jac &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_fill_random
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_core
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_after_precomp
+</UL>
+
+<P><STRONG><a name="[d3]"></a>ecp_randomize_mxz</STRONG> (Thumb, 184 bytes, Stack size 48 bytes, ecp.o(i.ecp_randomize_mxz))
+<BR><BR>[Stack]<UL><LI>Max Depth = 384<LI>Call Chain = ecp_randomize_mxz &rArr; mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_fill_random
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_mxz
+</UL>
+
+<P><STRONG><a name="[cd]"></a>ecp_safe_invert_jac</STRONG> (Thumb, 100 bytes, Stack size 40 bytes, ecp.o(i.ecp_safe_invert_jac))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = ecp_safe_invert_jac &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_safe_cond_assign
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_select_comb
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_after_precomp
+</UL>
+
+<P><STRONG><a name="[d0]"></a>ecp_select_comb</STRONG> (Thumb, 150 bytes, Stack size 40 bytes, ecp.o(i.ecp_select_comb))
+<BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = ecp_select_comb &rArr; ecp_safe_invert_jac &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_safe_cond_assign
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_safe_invert_jac
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mul_comb_core
+</UL>
+
+<P><STRONG><a name="[ac]"></a>mbedtls_mpi_add_mod</STRONG> (Thumb, 82 bytes, Stack size 24 bytes, ecp.o(i.mbedtls_mpi_add_mod))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = mbedtls_mpi_add_mod &rArr; mbedtls_mpi_add_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_add_mxz
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+</UL>
+
+<P><STRONG><a name="[a3]"></a>mbedtls_mpi_mul_mod</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, ecp.o(i.mbedtls_mpi_mul_mod))
+<BR><BR>[Stack]<UL><LI>Max Depth = 336<LI>Call Chain = mbedtls_mpi_mul_mod &rArr; ecp_modp &rArr; mbedtls_mpi_mod_mpi &rArr; mbedtls_mpi_div_mpi &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_modp
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_mxz
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_randomize_jac
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_mxz
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac_many
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_normalize_jac
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_add_mxz
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_check_pubkey_sw
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+
+<P><STRONG><a name="[a7]"></a>mbedtls_mpi_shift_l_mod</STRONG> (Thumb, 74 bytes, Stack size 24 bytes, ecp.o(i.mbedtls_mpi_shift_l_mod))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = mbedtls_mpi_shift_l_mod &rArr; mbedtls_mpi_sub_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+
+<P><STRONG><a name="[a4]"></a>mbedtls_mpi_sub_mod</STRONG> (Thumb, 88 bytes, Stack size 24 bytes, ecp.o(i.mbedtls_mpi_sub_mod))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = mbedtls_mpi_sub_mod &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_cmp_int
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_jac
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_double_add_mxz
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_add_mixed
+</UL>
+
+<P><STRONG><a name="[c1]"></a>add32</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, ecp_curves.o(i.add32))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = add32
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p384
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p256
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p224
+</UL>
+
+<P><STRONG><a name="[be]"></a>add64</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, ecp_curves.o(i.add64))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = add64
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p192
+</UL>
+
+<P><STRONG><a name="[bf]"></a>carry64</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, ecp_curves.o(i.carry64))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = carry64
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p192
+</UL>
+
+<P><STRONG><a name="[b5]"></a>ecp_group_load</STRONG> (Thumb, 136 bytes, Stack size 40 bytes, ecp_curves.o(i.ecp_group_load))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = ecp_group_load &rArr; mbedtls_mpi_bitlen
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mpi_load
+</UL>
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_load
+</UL>
+
+<P><STRONG><a name="[b8]"></a>ecp_mod_koblitz</STRONG> (Thumb, 406 bytes, Stack size 104 bytes, ecp_curves.o(i.ecp_mod_koblitz))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = ecp_mod_koblitz &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_mpi
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_abs
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p256k1
+<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p224k1
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p192k1
+</UL>
+
+<P><STRONG><a name="[4d]"></a>ecp_mod_p192</STRONG> (Thumb, 182 bytes, Stack size 24 bytes, ecp_curves.o(i.ecp_mod_p192))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = ecp_mod_p192 &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;carry64
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;add64
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[52]"></a>ecp_mod_p192k1</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, ecp_curves.o(i.ecp_mod_p192k1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 248<LI>Call Chain = ecp_mod_p192k1 &rArr; ecp_mod_koblitz &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_koblitz
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[4e]"></a>ecp_mod_p224</STRONG> (Thumb, 678 bytes, Stack size 80 bytes, ecp_curves.o(i.ecp_mod_p224))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = ecp_mod_p224 &rArr; fix_negative &rArr; mbedtls_mpi_sub_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sub32
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fix_negative
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;add32
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[53]"></a>ecp_mod_p224k1</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, ecp_curves.o(i.ecp_mod_p224k1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 248<LI>Call Chain = ecp_mod_p224k1 &rArr; ecp_mod_koblitz &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_koblitz
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[55]"></a>ecp_mod_p255</STRONG> (Thumb, 178 bytes, Stack size 72 bytes, ecp_curves.o(i.ecp_mod_p255))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = ecp_mod_p255 &rArr; mbedtls_mpi_mul_int &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_set_bit
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_mul_int
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_abs
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[4f]"></a>ecp_mod_p256</STRONG> (Thumb, 1186 bytes, Stack size 80 bytes, ecp_curves.o(i.ecp_mod_p256))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = ecp_mod_p256 &rArr; fix_negative &rArr; mbedtls_mpi_sub_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sub32
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fix_negative
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;add32
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[54]"></a>ecp_mod_p256k1</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, ecp_curves.o(i.ecp_mod_p256k1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 248<LI>Call Chain = ecp_mod_p256k1 &rArr; ecp_mod_koblitz &rArr; mbedtls_mpi_mul_mpi &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_koblitz
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[50]"></a>ecp_mod_p384</STRONG> (Thumb, 1526 bytes, Stack size 96 bytes, ecp_curves.o(i.ecp_mod_p384))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232<LI>Call Chain = ecp_mod_p384 &rArr; fix_negative &rArr; mbedtls_mpi_sub_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_grow
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sub32
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;fix_negative
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;add32
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[56]"></a>ecp_mod_p448</STRONG> (Thumb, 254 bytes, Stack size 160 bytes, ecp_curves.o(i.ecp_mod_p448))
+<BR><BR>[Stack]<UL><LI>Max Depth = 304<LI>Call Chain = ecp_mod_p448 &rArr; mbedtls_mpi_add_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_mpi
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[51]"></a>ecp_mod_p521</STRONG> (Thumb, 140 bytes, Stack size 104 bytes, ecp_curves.o(i.ecp_mod_p521))
+<BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = ecp_mod_p521 &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_r
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_add_abs
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> ecp_curves.o(i.mbedtls_ecp_group_load)
+</UL>
+<P><STRONG><a name="[b6]"></a>ecp_mpi_load</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, ecp_curves.o(i.ecp_mpi_load))
+<BR><BR>[Called By]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_group_load
+</UL>
+
+<P><STRONG><a name="[da]"></a>ecp_use_curve25519</STRONG> (Thumb, 204 bytes, Stack size 16 bytes, ecp_curves.o(i.ecp_use_curve25519))
+<BR><BR>[Stack]<UL><LI>Max Depth = 248<LI>Call Chain = ecp_use_curve25519 &rArr; mbedtls_mpi_read_string &rArr; mbedtls_mpi_sub_int &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_int
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_set_bit
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_load
+</UL>
+
+<P><STRONG><a name="[dc]"></a>ecp_use_curve448</STRONG> (Thumb, 278 bytes, Stack size 24 bytes, ecp_curves.o(i.ecp_use_curve448))
+<BR><BR>[Stack]<UL><LI>Max Depth = 256<LI>Call Chain = ecp_use_curve448 &rArr; mbedtls_mpi_read_string &rArr; mbedtls_mpi_sub_int &rArr; mbedtls_mpi_sub_mpi &rArr; mbedtls_mpi_add_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_mpi
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_int
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_shift_l
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_set_bit
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_read_string
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_lset
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_init
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_free
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_bitlen
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_free
+</UL>
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_ecp_group_load
+</UL>
+
+<P><STRONG><a name="[c2]"></a>fix_negative</STRONG> (Thumb, 62 bytes, Stack size 24 bytes, ecp_curves.o(i.fix_negative))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = fix_negative &rArr; mbedtls_mpi_sub_abs &rArr; mbedtls_mpi_copy &rArr; mbedtls_mpi_grow &rArr; mbedtls_mpi_zeroize &rArr; mbedtls_platform_zeroize
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_mpi_sub_abs
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p384
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p256
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p224
+</UL>
+
+<P><STRONG><a name="[c0]"></a>sub32</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, ecp_curves.o(i.sub32))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = sub32
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p384
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p256
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecp_mod_p224
+</UL>
+
+<P><STRONG><a name="[dd]"></a>entropy_gather_internal</STRONG> (Thumb, 178 bytes, Stack size 152 bytes, entropy.o(i.entropy_gather_internal))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1288<LI>Call Chain = entropy_gather_internal &rArr; entropy_update &rArr; mbedtls_sha512_ret &rArr; mbedtls_sha512_finish_ret &rArr; mbedtls_internal_sha512_process
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;entropy_update
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_entropy_func
+</UL>
+
+<P><STRONG><a name="[de]"></a>entropy_update</STRONG> (Thumb, 140 bytes, Stack size 104 bytes, entropy.o(i.entropy_update))
+<BR><BR>[Stack]<UL><LI>Max Depth = 1136<LI>Call Chain = entropy_update &rArr; mbedtls_sha512_ret &rArr; mbedtls_sha512_finish_ret &rArr; mbedtls_internal_sha512_process
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_platform_zeroize
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_update_ret
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_starts_ret
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbedtls_sha512_ret
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;entropy_gather_internal
+</UL>
+
+<P><STRONG><a name="[84]"></a>dump_buf</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, main.o(i.dump_buf))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = dump_buf &rArr; __2printf
+</UL>
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ecdh_test
+</UL>
+
+<P><STRONG><a name="[78]"></a>_printf_core</STRONG> (Thumb, 996 bytes, Stack size 104 bytes, printf8.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_pre_padding
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_post_padding
+<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0printf$8
+</UL>
+
+<P><STRONG><a name="[7a]"></a>_printf_post_padding</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, printf8.o(i._printf_post_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[79]"></a>_printf_pre_padding</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, printf8.o(i._printf_pre_padding), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>
